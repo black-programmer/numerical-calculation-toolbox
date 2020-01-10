@@ -30,4 +30,6 @@
 &emsp;&emsp;进入requirements.txt所在目录，执行pip install -r requirements.txt
 ## **项目使用说明**
 ### **项目安装**
-- 
+1. github地址：https://github.com/black-programmer/numerical-calculation-toolbox
+2. 在cmd进入项目根目录，执行python setup.py
+3. 使用pip命令：pip install toolbox
