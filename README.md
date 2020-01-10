@@ -34,7 +34,8 @@
 ```cmd
 git clone https://github.com/black-programmer/toolbox.git
 cd toolbox
-python setup.py
+python setup.py sdist
+pip install dist/toolbox-1.0.tar.gz
 ```
 二、使用pip：
 ```cmd
@@ -46,4 +47,5 @@ import toolbox
 ...
 ```
 具体使用方法以及包含的功能参见toolbox/doc/doc.md
+
 测试用例位于test/test.py
